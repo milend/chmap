@@ -16,6 +16,15 @@ You need a Rust toolchain, see [rustup](https://rustup.rs).
 2. If you want to run via `cargo`, use `cargo run -- arguments`
 3. If you want to install, `cargo install --path chmap`
 
+## `cheadermap` Crate
+
+If you would like to use the [cheadermap](https://crates.io/crates/cheadermap) library crate, add the following to your `Cargo.toml`:
+
+```toml
+[dependencies]
+cheadermap = "0.1.0"
+```
+
 # How to Use
 
 To print the contents of an hmap file, execute:
