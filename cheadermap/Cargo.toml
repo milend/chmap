@@ -1,0 +1,18 @@
+[package]
+name = "cheadermap"
+version = "0.1.0"
+authors = ["Milen Dzhumerov"]
+edition = "2021"
+license = "MIT"
+description = "Library to inspect Clang headermap (.hmap) files"
+repository = "https://github.com/milend/chmap"
+categories = ["command-line-utilities"]
+
+[dependencies]
+
+anyhow = "1.0"
+thiserror = "1.0"
+
+[dev-dependencies]
+
+serde_json = "1.0"

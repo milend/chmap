@@ -1,0 +1,302 @@
+{
+  "SDWebImage\/SDImageCacheDefine.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageCacheDefine.h"
+  },
+  "SDWebImage\/SDImageIOAnimatedCoder.h" : {
+    "suffix" : "SDImageIOAnimatedCoder.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/NSData+ImageContentType.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "NSData+ImageContentType.h"
+  },
+  "SDWebImage\/SDmetamacros.h" : {
+    "suffix" : "SDmetamacros.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDImageHEICCoder.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageHEICCoder.h"
+  },
+  "SDWebImage\/NSImage+Compatibility.h" : {
+    "suffix" : "NSImage+Compatibility.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDDisplayLink.h" : {
+    "suffix" : "SDDisplayLink.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDWebImageError.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageError.h"
+  },
+  "SDWebImage\/SDWebImageOptionsProcessor.h" : {
+    "suffix" : "SDWebImageOptionsProcessor.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/UIImage+MultiFormat.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIImage+MultiFormat.h"
+  },
+  "SDWebImage\/SDWebImagePrefetcher.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImagePrefetcher.h"
+  },
+  "SDWebImage\/SDWebImageDownloaderOperation.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageDownloaderOperation.h"
+  },
+  "SDWebImage\/SDImageLoadersManager.h" : {
+    "suffix" : "SDImageLoadersManager.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDAnimatedImagePlayer.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDAnimatedImagePlayer.h"
+  },
+  "SDWebImage\/SDImageCacheConfig.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageCacheConfig.h"
+  },
+  "SDWebImageMapKit\/MKAnnotationView+WebCache.h" : {
+    "suffix" : "MKAnnotationView+WebCache.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImageMapKit\/MapKit\/"
+  },
+  "SDWebImage\/SDAnimatedImageView+WebCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDAnimatedImageView+WebCache.h"
+  },
+  "SDWebImage\/SDImageCoderHelper.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageCoderHelper.h"
+  },
+  "SDWebImage\/SDImageGIFCoder.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageGIFCoder.h"
+  },
+  "SDWebImage\/SDWebImageManager.h" : {
+    "suffix" : "SDWebImageManager.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/NSButton+WebCache.h" : {
+    "suffix" : "NSButton+WebCache.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDImageTransformer.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageTransformer.h"
+  },
+  "SDWebImage\/UIColor+SDHexString.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/",
+    "suffix" : "UIColor+SDHexString.h"
+  },
+  "SDWebImageMapKit\/SDWebImageMapKit.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/WebImage\/",
+    "suffix" : "SDWebImageMapKit.h"
+  },
+  "SDWebImage\/SDWebImageDownloaderConfig.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageDownloaderConfig.h"
+  },
+  "SDWebImage\/SDAnimatedImage.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDAnimatedImage.h"
+  },
+  "SDWebImage\/UIButton+WebCache.h" : {
+    "suffix" : "UIButton+WebCache.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImageDownloaderResponseModifier.h" : {
+    "suffix" : "SDWebImageDownloaderResponseModifier.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/UIImage+ExtendedCacheData.h" : {
+    "suffix" : "UIImage+ExtendedCacheData.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDImageIOCoder.h" : {
+    "suffix" : "SDImageIOCoder.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImageDownloaderDecryptor.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageDownloaderDecryptor.h"
+  },
+  "SDWebImage\/SDWeakProxy.h" : {
+    "suffix" : "SDWeakProxy.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDAsyncBlockOperation.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/",
+    "suffix" : "SDAsyncBlockOperation.h"
+  },
+  "SDWebImage\/SDDeviceHelper.h" : {
+    "suffix" : "SDDeviceHelper.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDImageCachesManagerOperation.h" : {
+    "suffix" : "SDImageCachesManagerOperation.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDMemoryCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDMemoryCache.h"
+  },
+  "SDWebImage\/SDAssociatedObject.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/",
+    "suffix" : "SDAssociatedObject.h"
+  },
+  "SDWebImage\/SDImageCoder.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageCoder.h"
+  },
+  "SDWebImage\/SDImageIOAnimatedCoderInternal.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/",
+    "suffix" : "SDImageIOAnimatedCoderInternal.h"
+  },
+  "SDWebImage\/SDWebImageCacheSerializer.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageCacheSerializer.h"
+  },
+  "SDWebImage\/SDDiskCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDDiskCache.h"
+  },
+  "SDWebImage\/SDImageAWebPCoder.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageAWebPCoder.h"
+  },
+  "SDWebImage\/SDImageFrame.h" : {
+    "suffix" : "SDImageFrame.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImage.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/WebImage\/",
+    "suffix" : "SDWebImage.h"
+  },
+  "SDWebImage\/SDImageGraphics.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageGraphics.h"
+  },
+  "SDWebImage\/UIImageView+WebCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIImageView+WebCache.h"
+  },
+  "SDWebImage\/SDWebImageCacheKeyFilter.h" : {
+    "suffix" : "SDWebImageCacheKeyFilter.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDImageAPNGCoder.h" : {
+    "suffix" : "SDImageAPNGCoder.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDInternalMacros.h" : {
+    "suffix" : "SDInternalMacros.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDFileAttributeHelper.h" : {
+    "suffix" : "SDFileAttributeHelper.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDWebImageIndicator.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageIndicator.h"
+  },
+  "SDWebImage\/SDWebImageDownloader.h" : {
+    "suffix" : "SDWebImageDownloader.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDImageCachesManager.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageCachesManager.h"
+  },
+  "SDWebImage\/SDImageAssetManager.h" : {
+    "suffix" : "SDImageAssetManager.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDWebImageDownloaderRequestModifier.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageDownloaderRequestModifier.h"
+  },
+  "SDWebImage\/UIView+WebCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIView+WebCache.h"
+  },
+  "SDWebImage\/SDAnimatedImageRep.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDAnimatedImageRep.h"
+  },
+  "SDWebImage\/UIImage+MemoryCacheCost.h" : {
+    "suffix" : "UIImage+MemoryCacheCost.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImageTransitionInternal.h" : {
+    "suffix" : "SDWebImageTransitionInternal.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDImageCodersManager.h" : {
+    "suffix" : "SDImageCodersManager.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDImageLoader.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDImageLoader.h"
+  },
+  "SDWebImage\/UIImage+Metadata.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIImage+Metadata.h"
+  },
+  "SDWebImage\/SDGraphicsImageRenderer.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDGraphicsImageRenderer.h"
+  },
+  "SDWebImage\/UIImageView+HighlightedWebCache.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIImageView+HighlightedWebCache.h"
+  },
+  "SDWebImage\/SDImageCache.h" : {
+    "suffix" : "SDImageCache.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImageOperation.h" : {
+    "suffix" : "SDWebImageOperation.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/UIImage+GIF.h" : {
+    "suffix" : "UIImage+GIF.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDAnimatedImageView.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDAnimatedImageView.h"
+  },
+  "SDWebImage\/UIImage+ForceDecode.h" : {
+    "suffix" : "UIImage+ForceDecode.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/UIImage+Transform.h" : {
+    "suffix" : "UIImage+Transform.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/SDWebImageDefine.h" : {
+    "suffix" : "SDWebImageDefine.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/"
+  },
+  "SDWebImage\/UIView+WebCacheOperation.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "UIView+WebCacheOperation.h"
+  },
+  "SDWebImage\/SDWebImageTransition.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageTransition.h"
+  },
+  "SDWebImage\/NSBezierPath+SDRoundedCorners.h" : {
+    "suffix" : "NSBezierPath+SDRoundedCorners.h",
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Private\/"
+  },
+  "SDWebImage\/SDWebImageCompat.h" : {
+    "prefix" : "\/Users\/milen\/Desktop\/SDWebImage\/SDWebImage\/Core\/",
+    "suffix" : "SDWebImageCompat.h"
+  }
+}

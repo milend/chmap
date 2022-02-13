@@ -1,0 +1,15 @@
+[package]
+name = "chmap"
+version = "0.1.0"
+authors = ["Milen Dzhumerov"]
+edition = "2021"
+license = "MIT"
+description = "Command line utility to inspect Clang headermap (.hmap) files"
+repository = "https://github.com/milend/chmap"
+categories = ["command-line-utilities"]
+
+[dependencies]
+
+anyhow = "1.0"
+cheadermap = { path = "../cheadermap", version = "0.1.0" }
+clap = { version = "3.0.14", features = ["derive"] }
