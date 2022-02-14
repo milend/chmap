@@ -47,6 +47,7 @@ dependencies = [
  "anyhow",
  "cheadermap",
  "clap",
+ "libc",
 ]
 
 [[package]]

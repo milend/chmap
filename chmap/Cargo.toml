@@ -13,3 +13,4 @@ categories = ["command-line-utilities"]
 anyhow = "1.0"
 cheadermap = { path = "../cheadermap", version = "0.1.0" }
 clap = { version = "3.0.14", features = ["derive"] }
+libc = "0.2"

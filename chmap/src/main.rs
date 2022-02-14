@@ -48,10 +48,13 @@ fn execute_command(command: &Commands) -> anyhow::Result<()> {
 fn main() {
     let cli = Cli::parse();
     let command_result = execute_command(&cli.command);
-    match command_result {
-        Ok(_) => {}
+    let exit_code = match command_result {
+        Ok(_) => libc::EXIT_SUCCESS,
         Err(err) => {
-            eprintln!("{:#?}", err)
+            eprintln!("{:#?}", err);
+            libc::EXIT_FAILURE
         }
     };
+
+    std::process::exit(exit_code);
 }
