@@ -39,15 +39,19 @@ impl PrintCommand {
     }
 }
 
+fn execute_command(command: &Commands) -> anyhow::Result<()> {
+    match command {
+        Commands::Print(print_command) => print_command.execute(),
+    }
+}
+
 fn main() {
     let cli = Cli::parse();
-    match &cli.command {
-        Commands::Print(print_command) => {
-            let result = print_command.execute();
-            match result {
-                Ok(_) => {}
-                Err(err) => println!("Failed to print headermap entries, error: {:#?}", err),
-            }
+    let command_result = execute_command(&cli.command);
+    match command_result {
+        Ok(_) => {}
+        Err(err) => {
+            println!("{:#?}", err)
         }
-    }
+    };
 }
