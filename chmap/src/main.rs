@@ -51,7 +51,7 @@ fn main() {
     match command_result {
         Ok(_) => {}
         Err(err) => {
-            println!("{:#?}", err)
+            eprintln!("{:#?}", err)
         }
     };
 }
