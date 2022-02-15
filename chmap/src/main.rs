@@ -1,7 +1,6 @@
 // Copyright (c) 2022 Milen Dzhumerov
 
 use cheadermap::binary::parse_headermap;
-use std::io::Write;
 
 use clap::Parser;
 use std::fs;
@@ -28,21 +27,23 @@ struct PrintCommand {
     path: std::path::PathBuf,
 }
 
+fn print_headermap<W, P>(writer: &mut W, path: P) -> anyhow::Result<()>
+where
+    W: std::io::Write,
+    P: AsRef<std::path::Path>,
+{
+    let file_bytes = fs::read(path.as_ref())?;
+    let mut entries = parse_headermap(&file_bytes, true)?;
+    entries.sort_by(|lhs, rhs| lhs.key.cmp(rhs.key));
+    for entry in entries {
+        writeln!(writer, "{} -> {}{}", entry.key, entry.prefix, entry.suffix)?;
+    }
+    Ok(())
+}
+
 impl PrintCommand {
     fn execute(&self) -> anyhow::Result<()> {
-        let file_bytes = fs::read(&self.path)?;
-        let mut entries = parse_headermap(&file_bytes, true)?;
-        entries.sort_by(|lhs, rhs| lhs.key.cmp(rhs.key));
-        for entry in entries {
-            writeln!(
-                std::io::stdout(),
-                "{} -> {}{}",
-                entry.key,
-                entry.prefix,
-                entry.suffix
-            )?;
-        }
-        Ok(())
+        print_headermap(&mut std::io::stdout(), &self.path)
     }
 }
 
