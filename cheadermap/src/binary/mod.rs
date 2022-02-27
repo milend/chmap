@@ -68,3 +68,18 @@ pub fn parse_headermap(bytes: &[u8], fail_on_bucket_error: bool) -> anyhow::Resu
     })?;
     Ok(accumulator)
 }
+
+/// Prints the headermap entries, one per line in the format `key -> prefix + suffix`.
+pub fn print_headermap<W, P>(writer: &mut W, path: P) -> anyhow::Result<()>
+where
+    W: std::io::Write,
+    P: AsRef<std::path::Path>,
+{
+    let file_bytes = std::fs::read(path.as_ref())?;
+    let mut entries = parse_headermap(&file_bytes, true)?;
+    entries.sort_by(|lhs, rhs| lhs.key.cmp(rhs.key));
+    for entry in entries {
+        writeln!(writer, "{} -> {}{}", entry.key, entry.prefix, entry.suffix)?;
+    }
+    Ok(())
+}
