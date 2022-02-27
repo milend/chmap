@@ -3,7 +3,7 @@
 use core::panic;
 use std::fs;
 
-use cheadermap;
+use cheadermap::{self, binary::print_headermap};
 use serde_json::{Map, Value};
 
 use cheadermap::binary::{parse_headermap, Entry};
@@ -50,6 +50,19 @@ fn test_sdwebimage_hmap() {
             panic!("Expected top-level JSON element to be a map");
         }
     }
+}
+
+#[test]
+fn test_sdwebimage_reference_text_print() {
+    let binary_hmap_path = test_data::get_sdwebimage_binary_hmap_path();
+
+    let mut output_buffer = Vec::new();
+    print_headermap(&mut output_buffer, binary_hmap_path).unwrap();
+
+    let expected_print_output_path = test_data::get_sdwebimage_binary_reference_text_output();
+    let expected_output = fs::read(expected_print_output_path).unwrap();
+
+    assert_eq!(output_buffer, expected_output);
 }
 
 #[test]

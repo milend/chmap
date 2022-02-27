@@ -6,6 +6,10 @@ pub fn get_sdwebimage_binary_reference_json_output() -> PathBuf {
     get_path_for_test_resources_filename("SDWebImage-all-target-headers.reference-output.json")
 }
 
+pub fn get_sdwebimage_binary_reference_text_output() -> PathBuf {
+    get_path_for_test_resources_filename("SDWebImage-all-target-headers.reference-output.txt")
+}
+
 pub fn get_sdwebimage_binary_hmap_path() -> PathBuf {
     get_path_for_test_resources_filename("SDWebImage-all-target-headers.hmap")
 }
