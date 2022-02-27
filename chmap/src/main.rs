@@ -19,6 +19,7 @@ enum Commands {
 #[derive(Copy, Debug, Clone, clap::ArgEnum)]
 enum PrintOutputFormat {
     Text,
+    Json,
 }
 
 #[derive(clap::Parser, Debug)]
@@ -35,11 +36,12 @@ struct PrintCommand {
 
 impl PrintCommand {
     fn execute(&self) -> anyhow::Result<()> {
-        cheadermap::binary::print_headermap(
-            &mut std::io::stdout(),
-            &self.path,
-            cheadermap::binary::OutputFormat::Text,
-        )
+        let format = match self.format {
+            PrintOutputFormat::Text => cheadermap::binary::OutputFormat::Text,
+            PrintOutputFormat::Json => cheadermap::binary::OutputFormat::Json,
+        };
+
+        cheadermap::binary::print_headermap(&mut std::io::stdout(), &self.path, format)
     }
 }
 
