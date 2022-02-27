@@ -35,7 +35,11 @@ struct PrintCommand {
 
 impl PrintCommand {
     fn execute(&self) -> anyhow::Result<()> {
-        cheadermap::binary::print_headermap(&mut std::io::stdout(), &self.path)
+        cheadermap::binary::print_headermap(
+            &mut std::io::stdout(),
+            &self.path,
+            cheadermap::binary::OutputFormat::Text,
+        )
     }
 }
 

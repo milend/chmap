@@ -4,6 +4,7 @@ mod bucket;
 mod byte_decoder;
 mod entry;
 mod header;
+mod json;
 mod types;
 mod utility;
 
@@ -80,8 +81,13 @@ where
     Ok(())
 }
 
+pub enum OutputFormat {
+    Text,
+    Json,
+}
+
 /// Prints the headermap entries, one per line in the format `key -> prefix + suffix`.
-pub fn print_headermap<W, P>(writer: &mut W, path: P) -> anyhow::Result<()>
+pub fn print_headermap<W, P>(writer: &mut W, path: P, format: OutputFormat) -> anyhow::Result<()>
 where
     W: std::io::Write,
     P: AsRef<std::path::Path>,
@@ -89,6 +95,9 @@ where
     let file_bytes = std::fs::read(path.as_ref())?;
     let mut entries = parse_headermap(&file_bytes, true)?;
     entries.sort_by(|lhs, rhs| lhs.key.cmp(rhs.key));
-    print_text_entries(writer, &entries)?;
-    Ok(())
+
+    match format {
+        OutputFormat::Text => print_text_entries(writer, &entries),
+        OutputFormat::Json => json::print_json_entries(writer, &entries, 4),
+    }
 }

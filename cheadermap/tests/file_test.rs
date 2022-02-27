@@ -57,7 +57,12 @@ fn test_sdwebimage_reference_text_print() {
     let binary_hmap_path = test_data::get_sdwebimage_binary_hmap_path();
 
     let mut output_buffer = Vec::new();
-    print_headermap(&mut output_buffer, binary_hmap_path).unwrap();
+    print_headermap(
+        &mut output_buffer,
+        binary_hmap_path,
+        cheadermap::binary::OutputFormat::Text,
+    )
+    .unwrap();
 
     let expected_print_output_path = test_data::get_sdwebimage_binary_reference_text_output();
     let expected_output = fs::read(expected_print_output_path).unwrap();
