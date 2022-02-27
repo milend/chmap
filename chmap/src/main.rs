@@ -16,9 +16,18 @@ enum Commands {
     Print(PrintCommand),
 }
 
+#[derive(Copy, Debug, Clone, clap::ArgEnum)]
+enum PrintOutputFormat {
+    Text,
+}
+
 #[derive(clap::Parser, Debug)]
 #[clap(author, version, about = "Print the hmap entries", long_about = None)]
 struct PrintCommand {
+    /// The output format.
+    #[clap(short, long, arg_enum, default_value_t = PrintOutputFormat::Text)]
+    format: PrintOutputFormat,
+
     /// Path to the hmap file.
     #[clap(required = true, parse(from_os_str))]
     path: std::path::PathBuf,
