@@ -22,7 +22,7 @@ If you would like to use the [cheadermap](https://crates.io/crates/cheadermap) l
 
 ```toml
 [dependencies]
-cheadermap = "0.1.0"
+cheadermap = "0.2.0"
 ```
 
 # How to Use
