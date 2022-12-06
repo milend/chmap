@@ -1,6 +1,6 @@
 [package]
 name = "chmap"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Milen Dzhumerov"]
 edition = "2021"
 license = "MIT"
@@ -11,6 +11,6 @@ categories = ["command-line-utilities"]
 [dependencies]
 
 anyhow = "1.0"
-cheadermap = { path = "../cheadermap", version = "0.2.0" }
+cheadermap = { path = "../cheadermap", version = "0.2.1" }
 clap = { version = "3.0.14", features = ["derive"] }
 libc = "0.2"
