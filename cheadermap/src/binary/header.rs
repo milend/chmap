@@ -3,6 +3,7 @@
 use crate::binary::{types::*, utility::Packable};
 
 const MAGIC_NATIVE_ENDIAN: MagicType = 0x68_6D_61_70; // 'hmap' (in big endian)
+const MAGIC_NON_NATIVE_ENDIAN: MagicType = MAGIC_NATIVE_ENDIAN.swap_bytes();
 
 /// Represents the headermap file header.
 ///
@@ -82,12 +83,11 @@ pub fn parse_header(bytes: &[u8]) -> anyhow::Result<DataHeaderParseResult> {
         .advance::<MagicType>()
         .ok_or(DataHeaderError::MissingMagic)?;
 
-    let magic_swapped = MAGIC_NATIVE_ENDIAN.swap_bytes();
-    if magic != MAGIC_NATIVE_ENDIAN && magic_swapped != MAGIC_NATIVE_ENDIAN {
+    if magic != MAGIC_NATIVE_ENDIAN && magic != MAGIC_NON_NATIVE_ENDIAN {
         anyhow::bail!(DataHeaderError::UnknownMagic(magic));
     }
 
-    let swap_bytes = magic == magic_swapped;
+    let swap_bytes = magic == MAGIC_NON_NATIVE_ENDIAN;
 
     let version = decoder
         .advance::<VersionType>()
